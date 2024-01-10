@@ -5,7 +5,7 @@ import imutils
 personName = 'Isaac'
 dataPath = 'C:/Users/USUARIO PC/Documents/proyecto face/Data'
 personPath = dataPath + '/' + personName
-#print(personPath)
+
 if not os.path.exists(personPath):
 	print('Carpeta creada: ',personPath)
 	os.makedirs(personPath)
